@@ -5,9 +5,12 @@ body {
 }
 
 header {
-  background-color: #111;
-  color: white;
-  padding: 20px;
+
+  background-image: url(../assets/images/fashion.avif);
+  border: 2px solid black;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-size: auto;
   text-align: center;
 }
 
@@ -21,13 +24,17 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: rgb(7, 7, 7);
   text-decoration: none;
+  width: 120px;
+  padding: 20px;
+  text-shadow: 2px 2px 5px rgb(137, 69, 127);
 }
 
 .product-list {
   padding: 20px;
   text-align: center;
+  text-shadow: 2px 2px 5px rgb(174, 210, 139);
 }
 
 .products {
@@ -38,7 +45,7 @@ nav a {
 }
 
 .product-card {
-  border: 1px solid #ddd;
+  border: 1px solid #a48383;
   padding: 10px;
   width: 200px;
   text-align: center;
@@ -50,3 +57,4 @@ nav a {
   height: auto;
   border-radius: 10px;
 }
+
