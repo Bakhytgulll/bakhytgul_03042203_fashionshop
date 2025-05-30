@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Store</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1>Fashion Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Ürünler</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Giriş</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-list">
+      <h2>Yeni Gelenler</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="images/urun1.jpg" alt="Ürün 1" />
+          <h3>Kadın Bluz</h3>
+          <p>₺199</p>
+          <button onclick="addToCart('Kadın Bluz')">Sepete Ekle</button>
+        </div>
+        <div class="product-card">
+          <img src="images/urun2.jpg" alt="Ürün 2" />
+          <h3>Erkek Gömlek</h3>
+          <p>₺249</p>
+          <button onclick="addToCart('Erkek Gömlek')">Sepete Ekle</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
